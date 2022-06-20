@@ -7,17 +7,18 @@
     <head>
             <title>Recipes</title>
             <meta charset="UTF-8">
+            <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div id="bg">
             <h1>You choose the ingredients, we give the recipes!</h1>
-            <div>
+            <form action="" method="get" class="panel" id="submit-ingredient">
                 <p>What have you got in the fridge?</p>
-                <select>
-                    <option>Spinach</option>
-                </select>
-                <input type="button" value="Go">
-            </div>
-            <div id="recipes">
+                <label for="ingred">Ingredient:</label>
+                <input type="text" id="ingred" name="ingred" placeholder="i.e. banana">
+                <button type="submit">Submit</button>
+            </form>
+            <div class="panel" id="recipe-images">
                 <div id="recipe-1">
                     <img src="" alt="">
                 </div>
@@ -28,5 +29,7 @@
                     <img src="" alt="">
                 </div>
             </div>
+        </div>
     </body>
 </html>
+<script src="recipe.js"></script>

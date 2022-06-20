@@ -1,0 +1,46 @@
+/*
+    Author: Leigh
+    Styling for the recipe website
+*/
+* {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html,body {
+    height: 100%;
+    margin: 0px;
+    background-color: lightgoldenrodyellow;
+}
+h1 {
+    font-size: 6em;
+    margin: 0;
+    padding: 0.5em;
+    color: white;
+}
+p {
+    padding: 1em;
+    font-size: 1em;
+}
+.panel {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2em;
+    height: auto;
+    padding: 1em;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    opacity: .8;
+}
+#bg {
+    background-image: url(background.jpeg);
+    height: 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#recipe-images {
+    display: none;
+}
+#submit-ingredient {
+    font-size: 2em;
+}
